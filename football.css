@@ -1,0 +1,549 @@
+body{
+	font-family: 'Lobster', cursive;
+	background-image: url(me2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* 1st bar box*/
+.sec {
+
+    margin-top : 10px;
+    width : 1336px;
+    height: 100px;
+    background-image:url(feed2.png);
+    margin-left : 0px;
+}
+
+/* for all titles */
+.bx{
+	color: black;
+	font-weight: bold;
+}
+
+/* for logo image */
+.ii{
+	width: 170px; 
+	height : 92px;  
+	border-top-left-radius:30px; 
+	border-bottom-right-radius:30px; 
+}
+
+/* for all titles */
+.mrg{
+	padding-top: 4%;
+	padding-right: 10px;
+	padding-left: 8px;
+	font-size: 23px;
+	text-shadow: 2px 2px white;
+}
+
+/* for 1st title */
+.mrg2{
+	padding-left:15px;
+	border-bottom: 4px solid red;
+}
+
+.mrg:hover{
+	color: red;
+  	border-bottom: 4px solid red;
+  	/*  
+	text-decoration-line: underline;
+  	text-decoration-style: solid;
+  	text-decoration-color: red; 
+  	*/
+}
+
+/* for 1st icon */
+.icn{
+	color: white;
+	padding-bottom: 3%;
+	padding-left: 30px;
+	font-size: 20px;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: red;
+}
+
+/* for all icons */
+.icn2{
+	color: white;
+	padding-bottom: 3%;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+/* for login button*/
+.btn{
+	background-color: white;
+	color: red;
+	font-weight: bold;
+	margin-left: 40px;
+	margin-bottom:50%; 
+}
+
+.btn:hover{
+	background-color: blue ;
+	color: white;
+}
+
+/* for feed bar */
+.bar{
+	color: red;
+    margin-right : auto;
+    margin-left : 20px;
+    margin-top : 20px;
+    text-align: center;
+    width : 1300px;
+    height: 50px;
+    background-color: white;
+    border : 2px solid;
+    font-size : 30px;
+    font-weight : bold;
+    border-radius: 20px;
+}
+
+/* for newsfeed box */
+.new{
+	height: 510px;
+	width: 650px;
+	background-color: white;
+	margin-left: 300px;
+	border-radius: 20px;
+	border:2px solid white;
+}
+
+/*for right box */
+.new2{
+	width: auto;
+	height: auto;
+	display: flex;
+}
+/* for left box */
+.new2left{
+	width:1500px;
+}
+
+/* for right bor */ 
+.new2right{
+	width:700px;
+	background-color: white;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 20px;
+
+}
+/*  for image  */ 
+.im{
+	height:365.6px;
+	border-top-right-radius:20px; 
+	border-top-left-radius:20px;
+}
+
+.imm{
+	font-weight: bold;
+	padding-left: 15px;
+	font-size: 20px;
+	font-family: 'Philosopher', sans-serif;
+}
+
+.imm:hover{
+	color: blue;
+}
+
+.ims{
+	font-weight: bold;
+	padding-left: 15px;
+	font-size: 15px;
+	font-family: 'Viaoda Libre', cursive;
+}
+
+
+/* for right Division */
+.top{
+  	text-align: center;
+  	border: 2px solid white;
+  	font-family: 'Viaoda Libre', cursive;
+  	font-weight: bold;	
+}
+
+/* for hr tag */
+.h{
+	width: 250px;
+}
+
+/* for list */
+.list{
+	color: black;
+	font-family: 'Viaoda Libre', cursive;
+	font-weight: bold;
+}
+
+/* for hovering list lines */
+.l-hov:hover{
+	color: blue;
+}
+
+/* for 2nd pics and writings */
+.tol{
+	padding-left: 8.5px;
+	font-size: 20px;
+}
+.tol:hover{
+	color: darkblue;
+}
+
+.toll{
+	padding-left: 8.5px;
+	font-family: 'Stint Ultra Condensed', cursive;
+	font-size: 20px;
+	color: gray;
+}
+
+.tol-img{
+	padding-left: 3.5px;
+}
+
+.toli{
+	padding-left: 25px;
+	font-weight: bold;
+	font-family: 'Stint Ultra Condensed', cursive;
+	text-decoration-line: underline;
+  	text-decoration-style: solid;
+  	font-size: 18px;
+}
+.toli:hover{
+	color: blue;
+}
+
+.tot{
+	font-weight: bold;
+	font-family: 'Viaoda Libre', cursive;
+  	color: gray;
+  	padding-left: 20px;
+}
+
+/* for seemore button */
+.mr_sum{ 
+	border: 2px solid blue;
+	font-weight:bold;
+	margin-left: 750px;
+	border-radius: 20px;
+	text-align: center;
+	height: 30px;
+	width: 200px;
+}
+.mr_sum:hover{
+	color: white;
+	background-color: skyblue;
+	border-color: white;
+}
+
+.chart{
+	height: 950px;
+	width: 1235px;
+	margin-top: 5px;
+	background-color: white;
+	margin-left: 50px;
+	border-radius: 10px;
+	border:2px solid white;
+}
+
+/* for EPL title */
+.epl{
+	padding-left: 40px;
+}
+
+/* Dropdown Button Name*/
+
+.dropbtn {
+  	background-color: white;
+  	color: black;
+  	padding: 16px;
+  	height: 50px;
+  	width: 300px;
+ 	font-size: 16px;
+ 	border: 2px solid red;
+ 	border-radius: 30px;
+  	font-family: 'Viaoda Libre', cursive;
+  	font-weight: bold;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	padding-left: 30px;
+	padding-bottom: 10px;
+  	position: relative;
+  	display: inline-block;
+
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: 'Viaoda Libre', cursive;
+  font-weight: bold;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	color: white;
+	background-color: black;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	color: white;
+	background-color: red;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+	/* name finish */
+
+
+
+
+
+/* Dropdown Button date*/
+.dropbtnn {	
+  background-color: white;
+  color: black;
+  padding: 16px;
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+  border: 2px solid red;
+  border-radius: 30px;
+  font-family: 'Viaoda Libre', cursive;
+  font-weight: bold;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdownn {
+	padding-left: 30px;
+	padding-bottom: 10px;
+    position: relative;
+  	display: inline-block;
+
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-contentt {
+  	display: none;
+  	position: absolute;
+  	background-color: #f1f1f1;
+  	min-width: 160px;
+ 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	width: 200px;
+  	z-index: 1;
+  	font-family: 'Viaoda Libre', cursive;
+  	font-weight: bold;
+}
+
+/* Links inside the dropdown */
+.dropdown-contentt a {
+  	color: black;
+  	padding: 12px 12px;
+  	text-decoration: none;
+  	display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdownn:hover .dropbtnn {
+	color: white;
+	background-color: black;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-contentt a:hover {
+	color: white;
+	background-color: red;
+}
+
+/* Show the dropdown menu on hover */
+.dropdownn:hover .dropdown-contentt {
+	display: block;
+}
+/* Drop finish ^ */
+
+/* chart image */
+.chim{
+	height: 510px;
+	width: 1235px;
+
+}
+
+/* position words */
+.poss{
+	padding-left: 20px;
+	padding-top: 20px;
+	color: gray;
+
+}
+
+.glo{
+	font-family: 'Viaoda Libre', cursive;
+	font-weight: bolder;
+	padding-left: 20px;
+	font-size: 20px;
+	text-decoration-line: underline;
+  	text-decoration-style: solid;
+  	text-decoration-color: black; 
+}
+
+/*for 1st coloumn */
+.gp{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 20px;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.gpp{
+	font-size: 15px;
+	padding-right: 200px;
+	color: gray;
+}
+
+
+.lastchart{
+	height: 1505px;
+	width: 1235px;
+	margin-top: 5px;
+	background-color: white;
+	margin-left: 50px;
+	border-radius: 10px;
+	border:2px solid white;
+}
+
+
+.wr{
+	font-size: 30px;
+	padding-left: 40px;
+	
+}
+.wrr{
+	padding-left: 750px;
+	color: silver;
+}
+
+.limg{
+	padding-left: 12px;
+}
+
+.lta{
+	color: red;
+    margin-right : auto;
+    margin-left : 20px;
+    margin-top : 20px;
+    width : 1200px;
+    height: 30px;
+    padding-left: 30px;
+    background-color: white;
+    border : 2px solid;
+    font-size : 20px;
+    border-radius: 20px;
+}
+
+.ltab{
+	padding-left: 20px;
+	padding-right: 20px;
+	border:1px solid red;
+	border-radius: 10px;
+}
+
+.ltab:hover{
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+	border-color: white;
+}
+
+
+/*
+.wrt{
+	margin-top : 2px;
+    width : 1237px;
+    height: 50px;
+    background-color : #dfe5ea;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+*/
+/* for last bar */
+
+.final {
+    margin-top : 50px;
+    width : 1320px;
+    height: 140px;
+    background-color : darkblue; 
+	border-top-left-radius:35px; 
+	border-bottom-right-radius:30px; 
+}
+
+.lastim{
+	width: 230px; 
+	height : 130px;
+	border-top-left-radius:30px; 
+	border-bottom-right-radius:30px; 
+}
+
+.boxx{
+	color: white;
+	padding-right: 150px;
+}
+
+
+.titla{
+	padding-top: 8px;
+	padding-left: 20px;
+}
+.titl{
+	padding-left: 100px;
+}
+
+.titla:hover{
+	color: cyan;
+	text-decoration-line: underline;
+  	text-decoration-style: solid;
+  	text-decoration-color: cyan; 
+}
+.titl:hover{
+	color: cyan;
+	text-decoration-line: underline;
+  	text-decoration-style: solid;
+  	text-decoration-color: cyan; 
+}
+
+.ftitle{
+	padding-left: 10px;
+	padding-bottom: 20px;
+	font-size:	35px;
+	padding-top: 30px;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: bold;
+}
+
+
+.ftitlei{
+	padding-left: 100px;
+	color: silver;
+	font-size: 15px;
+	font-family: 'Viaoda Libre', cursive;
+}
+
