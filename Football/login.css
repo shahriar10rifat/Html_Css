@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(Football-Logos.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+ /* for login button */
+.log{
+	width: 280px;
+	position: absolute;
+	top: 20%;
+	left: 42%;
+	color: cyan;
+}
+
+/* for login bar */
+.log h1{
+	float: left;
+	font-size: 50px;
+	border-bottom: 4px solid yellow;
+	margin-bottom: 20px;
+	padding:12px 0;
+}
+
+.txt_bx {
+	width: 100%;
+	overflow: hidden;
+	font-size: 20%;
+	left: 50%;
+	padding:8px 0;
+	margin: 8px 0;
+	border-bottom: 1.5px solid yellow;
+
+}
+  
+.txt_bx input{
+	border: 0;
+	outline: 0;
+	background: none;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+}
+.btn{
+	width: 49%;
+	background: none;
+	border:2px solid yellow;
+	color: white;
+	padding: 5px;
+}
+.btn:hover{
+	color: black;
+	background-color: white;
+}
+
+.fp{
+	font-family: 'Stint Ultra Condensed', cursive;
+  	color: white;
+  	font-size: 25px;
+}
+
+.fs{
+	text-decoration-line: underline;
+  	text-decoration-style:solid;
+	font-family: 'Stint Ultra Condensed', cursive;
+  	color: white;
+  	font-size: 25px;
+  	padding-left: 15px;
+}
+.fs:hover{
+	color: cyan;
+}
